@@ -1,6 +1,5 @@
 const { Client, RichEmbed } = require('discord.js');
 const bot = new Client();
-const token = 'Njg5NDg5NTI3MTIyODIxMTIx.XnZJpQ.4BNXj1tk1Ys1pj7RFsuO9Dk37Vw'; 
 const PREFIX = 'p!';
 const polls_role = '691632341705293844';
 const general = '678262972854042630';
@@ -254,4 +253,4 @@ bot.on("message", async message => {
     }
 })
 
-bot.login(token);
+bot.login(process.env.TOKEN);
