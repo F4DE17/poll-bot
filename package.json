@@ -4,7 +4,7 @@
   "description": "",
   "main": "bot3.js",
   "scripts": {
-    "start": "node bot3.js"
+    "start": "node bot3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
     "engines": {
